@@ -1,0 +1,23 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body, .square, img{
+   height: 100%;
+}
+
+.row {
+   height: 12.5%;
+}
+
+.square {
+   width: 12.5%;
+   float: left;
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
